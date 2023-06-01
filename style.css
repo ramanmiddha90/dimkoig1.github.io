@@ -135,8 +135,11 @@ button {
 
 .verifying-modal {
     clear: both;
-    height: 30px;
     padding-top: 16px;
+}
+
+div.buttons {
+    margin-bottom: 16px;
 }
 
 input {
