@@ -83,18 +83,9 @@ button {
     cursor: pointer;
     display: flex;
     font-family: "Volta: Modern: Display",arial;
-    font-feature-settings: normal;
-    font-kerning: auto;
-    font-optical-sizing: auto;
     font-size: 16px;
     font-stretch: 100%;
     font-style: normal;
-    font-variant-alternates: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variation-settings: normal;
     font-weight: 600;
     height: 40px;
     justify-content: center;
@@ -127,6 +118,25 @@ button {
     word-spacing: 0px;
     writing-mode: horizontal-tb;
     -webkit-tap-highlight-color: rgba(0,0,0,0);    
+}
+
+#continue, #cancel {
+    float: left;
+    margin-right: 10px;
+}
+
+.error {
+    color:red;
+}
+
+#signInName_label, #password_label, #email_label, #newPassword_label, #reenterPassword_label {
+    display: none;
+}
+
+.verifying-modal {
+    clear: both;
+    height: 30px;
+    padding-top: 16px;
 }
 
 input {
@@ -217,9 +227,4 @@ text-size-adjust: 100%;
 
 .helpLink {
 display:none;
-}
-
-#cancel {
-    /* position: absolute;
-    top: 10px; */
 }
