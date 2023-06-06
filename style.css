@@ -125,8 +125,14 @@ button {
     float: left; 
 }
 
+#verifying_blurb{
+    color: #FFF;
+}
+
 .error {
     color:red;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .Password {
