@@ -145,7 +145,6 @@ button {
 
 .verifying-modal {
     clear: both;
-    padding-top: 16px;
 }
 
 .verificationInfoText, .verificationSuccessText, .verificationErrorText {
